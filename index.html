@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lorem Ipsum</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header" role="banner">
+			<nav class="nav">
+				<ul class="nav-look">
+					<li>
+						<a href="">
+							<img class="p-icon" src="img/svg/P-logo.svg" alt="Premis logo">
+						</a>
+					</li>
+				</ul>
+				<ul class="nav-look nav-links">
+					<a href="" class="header-font"><li>UM OKKUR</li></a>
+					<a href="" class="header-font"><li>VÖRUR</li></a>
+					<a href="" class="header-font"><li>SAGAN</li></a>
+					<li>
+						<a href="">
+							<img class="fb-icon" src="img/svg/facebook-logo-button-white.svg" alt="Facebook logo">
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<img class="arrow-icon" id="scroll" src="img/svg/down-arrow.svg" alt="arrow down">
+		</header>
+		<!-- MAIN -->
+		<main class="container">
+			<div class="filter-container">
+				<ul id="filters">
+					<span class="filter active" data-filter=".frettir, .itrottir, .tonlist, .lifid">ALLT</span>
+					<span class="filter" data-filter=".frettir">FRÉTTIR</span>
+					<span class="filter" data-filter=".itrottir">ÍÞRÓTTIR</span>
+					<span class="filter" data-filter=".tonlist">TÓNLIST</span>
+					<span class="filter" data-filter=".lifid">LÍFIÐ</span>
+				</ul>
+			</div>
+			<div id="article-list">
+				<article class="article frettir" data-cat="frettir">
+					<div class="article-wrapper">
+						<img src="img/img/1.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">FRÉTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article frettir" data-cat="frettir">
+					<div class="article-wrapper">
+						<img src="img/img/2.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">FRÉTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/3.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article lifid" data-cat="lifid">
+					<div class="article-wrapper">
+						<img src="img/img/4.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article lifid" data-cat="lifid">
+					<div class="article-wrapper">
+						<img src="img/img/5.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/6.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/7.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article lifid" data-cat="lifid">
+					<div class="article-wrapper">
+						<img src="img/img/8.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/9.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article frettir" data-cat="frettir">
+					<div class="article-wrapper">
+						<img src="img/img/10.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">FRÉTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/11.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article frettir" data-cat="frettir">
+					<div class="article-wrapper">
+						<img src="img/img/12.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">FRÉTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article lifid" data-cat="lifid">
+					<div class="article-wrapper">
+						<img src="img/img/13.jpg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/14.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article itrottir" data-cat="itrottir">
+					<div class="article-wrapper">
+						<img src="img/img/15.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">ÍÞRÓTTIR</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+				<article class="article lifid" data-cat="lifid">
+					<div class="article-wrapper">
+						<img src="img/img/16.jpeg" class="image" alt="nice scenery" />
+					</div>
+					<p class="label-font article-text-space">LÍFIÐ</p>
+					<h3 class="article-text-space article-header">LOREM IPSUM IS SIMPLY DUMMY TEXT</h3>
+					<p class="sub-font article-text-space">5. Október, 2018</p>
+					<p class="text-font article-text-space">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industrys standard dummy text ever since the 1500s, when an</p>
+				</article>
+			</div>
+		</main>
+		<!-- FOOTER -->
+		<footer class="container footer">
+			<div class="footer-sub-container">
+				<h4><img src="img/svg/premis-logo.svg" class="footer-heading" alt="premis logo" /></h4>
+				<span class="sub-font footer-text-space">Holtavegur 10</span>
+				<span class="sub-font footer-text-space">104 Reykjavik</span>
+				<span class="sub-font footer-text-space">5470000</span>
+				<span class="sub-font footer-text-space">info@premis.is</span>
+				<span class="sub-font footer-text-space">Kt. 540199-2569</span>
+				<span class="sub-font footer-text-space">Vsk. nr. 61001</span>
+			</div>
+			<div class="footer-sub-container">
+				<h4 class="footer-heading">VEFTRÉ</h4>
+				<a href="" class="sub-font footer-text-space">Um okkur</a>
+				<a href="" class="sub-font footer-text-space">Vörur</a>
+				<a href="" class="sub-font footer-text-space">Sagan</a>
+			</div>
+			<div class="footer-sub-container">
+				<h4 class="footer-heading">SAMFÉLAGSMIÐLAR</h4>
+				<div class="footer-icon-container">
+					<img src="img/svg/facebook-logo-button.svg" class="footer-social-icon" alt="facebook logo" />
+					<img src="img/svg/instagram-logo.svg" class="footer-social-icon" alt="instagram logo" />
+					<img src="img/svg/twitter-logo-button.svg" class="footer-social-icon" alt="twitter logo" />
+					<img src="img/svg/dribble-logo-button.svg" class="footer-social-icon" alt="dribble logo" />
+				</div>
+			</div>
+			<div class="footer-sub-container">
+				<h4 class="footer-heading">PÓSTLISTI</h4>
+				<span class="sub-font footer-text-space">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+				<a href="" class="footer-netfang-button sub-font">Sláðu inn netfang<img alt="envelope" class="footer-social-icon" src="img/svg/envelope.svg"></a>
+			</div>
+		</footer>
+	</body>
+</html>

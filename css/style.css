@@ -292,4 +292,8 @@ span {
     .footer-sub-container {
         align-items: center;
     }
+
+    .footer-text-space {
+        text-align: center;
+    }
 }

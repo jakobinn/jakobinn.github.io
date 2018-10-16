@@ -1,0 +1,295 @@
+/*
+* === Fonts ===
+*/
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./../Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("./../Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+h3,
+h4,
+span,
+p,
+a,
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+* === Elements ===
+*/
+
+body {
+    margin: 0px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+span {
+    line-height: 15px;
+}
+
+/*
+* === Header ===
+*/
+
+.header {
+    position: static;
+    background-image: url('../img/hero4.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+.nav {
+    padding-top: 25px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav-look {
+    list-style: none;
+    color: white;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+* === Content ===
+*/
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    transition: all 1s ease;
+}
+
+.image {
+	object-fit: cover;
+	height: 180px;
+	width: 300px;
+}
+
+/*
+* === Filter ===
+*/
+
+.filter-container {
+    height: 45px;
+    margin-top: 60px;
+}
+
+#filters {
+    float: right;
+    font-size: 12px;
+    list-style: none;
+}
+
+#filters span {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+#filters span.active {
+    color: orange
+}
+
+#article-list .article {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 23%;
+    margin: 1%;
+    display: none;
+    float: left;
+    overflow: hidden;
+}
+
+.article-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.article img {
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/*
+* === Footer ===
+*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+}
+
+.footer-heading {
+    font-family: MontserratBold;
+    display: flex;
+    margin-bottom: 20px;
+    height: 50px;
+    flex-direction: column-reverse;
+    color: #282a38;
+}
+
+.footer-sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.footer-netfang-button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #282a38;
+}
+
+.footer-text-space {
+    margin-bottom: 4px;
+}
+
+/*
+* === Fonts ===
+*/
+
+.sub-font {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.text-font {
+    font-size: 13px;
+    color: gray;
+}
+
+.header-font {
+    font-size: 13px;
+    color: white;
+}
+
+.label-font {
+    color: orange;
+    font-size: 12px;
+}
+
+.article-text-space {
+    margin: 10px 0px;
+}
+
+.article-header {
+	font-family: MontserratBold;
+}
+
+/*
+* === Icons and artwork ===
+*/
+
+.main-text-art {
+    position: absolute;
+    left: 500px;
+    float: right;
+    top: 140px;
+    height: 230px;
+}
+
+.arrow-icon {
+    position: absolute;
+    height: 25px;
+    margin: auto;
+    width: 100%;
+    top: 650px;
+}
+
+.p-icon {
+    height: 60px;
+}
+
+.fb-icon {
+    height: 25px;
+}
+
+.footer-social-icon {
+    height: 25px;
+    margin-right: 8px;
+}
+
+/*
+* === Media screens ===
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+
+    #article-list .article {
+        width: 48%;
+        margin: 1%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        height: 150px;
+        align-items: flex-end;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-sub-container {
+        align-items: center;
+    }
+}

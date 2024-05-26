@@ -14,7 +14,7 @@ import PaperContainer from "../components/containers/paperContainer";
 import AllProjects from "../components/projects/allProjects";
 import Header from "../components/common/header";
 
-import INFO from "../data/user";
+import INFO from "../data/site";
 import myArticles from "../data/articles";
 import { motion } from "framer-motion";
 

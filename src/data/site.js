@@ -8,7 +8,6 @@ const INFO = {
 		title: "Jakob",
 		name: "Jakob",
 		email: "jmj150@outlook.com",
-		logo: "../logo.png",
 	},
 
 	socials: {

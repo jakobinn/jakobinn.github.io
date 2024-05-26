@@ -9,7 +9,7 @@ import {
 	faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 
-import INFO from "../../data/user";
+import INFO from "../../data/site";
 
 import "./styles/socials.css";
 

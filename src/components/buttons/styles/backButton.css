@@ -1,0 +1,32 @@
+.back-button {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+	background-color: #333; /* Black-ish color */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: transform 0.5s;
+	position: absolute;
+}
+
+.back-button:hover {
+	transform: scale(1.2); /* Slightly bigger on hover */
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 16px solid white; /* Color of the arrow */
+}
+
+.arrow-icon {
+	color: white; /* Color of the arrow */
+	font-size: 16px; /* Size of the arrow */
+}

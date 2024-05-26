@@ -1,0 +1,15 @@
+.footer {
+	width: 100%; /* Ensures it can center the content across the full width */
+	text-align: center;
+	padding: 20px 0;
+	color: var(--tertiary-color);
+	font-size: 16px;
+	position: absolute;
+	left: 0; /* Aligns it from the left edge to the right edge */
+	bottom: 15px;
+}
+
+.footer-react-icon {
+	font-size: 18px;
+	color: #61dafb;
+}

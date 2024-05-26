@@ -86,6 +86,7 @@ const Projects = () => {
 							project?.links.map((link) => {
 								return (
 									<Link
+										rel="noopener noreferrer"
 										target="_blank"
 										className="project-href"
 										to={link.link ? link.link : ""}
@@ -107,6 +108,7 @@ const Projects = () => {
 						) : (
 							<Link
 								target="_blank"
+								rel="noopener noreferrer"
 								className="project-href"
 								to={project.link ? project.link : ""}
 							>

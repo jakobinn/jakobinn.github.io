@@ -21,7 +21,11 @@ const Article = (props) => {
 						{description}
 					</div>
 					<div className="homepage-article-link">
-						<Link target="_blank" to={link}>
+						<Link
+							rel="noopener noreferrer"
+							target="_blank"
+							to={link}
+						>
 							Read article{" "}
 							<FontAwesomeIcon
 								style={{ fontSize: "10px" }}

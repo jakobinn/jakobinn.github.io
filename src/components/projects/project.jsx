@@ -44,6 +44,7 @@ const Project = (props) => {
 		<React.Fragment>
 			<div className="project">
 				<Link
+					rel="noopener noreferrer"
 					target="_blank"
 					to={showPage ? `/project?type=${productKey}` : link}
 				>

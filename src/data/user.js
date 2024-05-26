@@ -15,7 +15,7 @@ const INFO = {
 		github: "https://github.com/jakobinn",
 		linkedin: "https://linkedin.com/in/j-260ab225a",
 		stackoverflow: "https://stackoverflow.com/users/4935140/jakobinn",
-		medium: "https://facebook.com/@bluedesk09",
+		medium: "https://medium.com/@bluedesk09",
 		email: "jmj150@outlook.com",
 	},
 
@@ -218,11 +218,12 @@ I meticulously wrote the code and achieved nearly 100% test coverage to ensure r
 			title: "Rides",
 			description: `I designed and developed a ridesharing website specifically for Iceland to enhance local commuting options. Leveraging my professional experience with .NET Framework and .NET Core, I chose to build this website using the latest version of .NET Core available at the time. This choice not only allowed me to refine my skills but also to bring my idea to life efficiently.
 The data fetching in this app is unique, as the datatables package is directly updated efficiently with server-side results.
-The site features a Python script I crafted to scrape data from existing ridesharing platforms, presenting it in a more accessible and user-friendly manner. Users can easily create accounts, add rides, and interact with the data. The backend is powered by Entity Framework and ASP.NET Identity, with a SQL Server database, all hosted on Azure, ensuring robust performance and security. `,
+The site features a Python script I crafted to scrape data from existing ridesharing platforms, presenting it in a more accessible and user-friendly manner. Users can easily create accounts, add rides, and interact with the data. The backend is powered by Entity Framework and ASP.NET Identity, with a SQL Server database, all hosted on Azure, ensuring robust performance and security. It has been updated to .NET 8. `,
 			logoLanguages: ["csharp"],
 			linkText: "View Project",
 			link: "https://rides-app.azurewebsites.net",
 			languages: [
+				".NET 8",
 				"ASP.NET Core",
 				"C#",
 				"Azure",

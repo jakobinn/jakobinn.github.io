@@ -43,11 +43,7 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link
-					rel="noopener noreferrer"
-					target="_blank"
-					to={showPage ? `/project?type=${productKey}` : link}
-				>
+				<Link to={showPage ? `/project?type=${productKey}` : link}>
 					<div className="project-container">
 						{isDown ? (
 							<span className="is-down-text">

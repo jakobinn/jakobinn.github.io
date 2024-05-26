@@ -6,7 +6,7 @@ import "./styles/footer.css";
 const Footer = () => {
 	return (
 		<div className="footer">
-			Created by Jakob with{" "}
+			Created by Jakob using{" "}
 			<FontAwesomeIcon icon={faReact} className="footer-react-icon" />{" "}
 			with the help of{" "}
 			<span role="img" aria-label="hot beverage">

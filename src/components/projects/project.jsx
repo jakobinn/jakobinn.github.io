@@ -22,28 +22,16 @@ const Project = (props) => {
 		showPage,
 		languages,
 		logoLanguages,
-		descriptionTech,
 	} = props;
-
-	const [isHovered, setIsHovered] = React.useState(false);
-
-	const truncateText = (text, limit) => {
-		const words = text.split(" ");
-		if (words.length > limit) {
-			return words.slice(0, limit).join(" ") + "...";
-		}
-		return text;
-	};
-
-	const variants = {
-		hidden: { opacity: 0 },
-		visible: { opacity: 1, transition: { duration: 0.5 } },
-	};
 
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={showPage ? `/project?type=${productKey}` : link}>
+				<Link
+					target="_blank"
+					rel="noopener noreferrer"
+					to={showPage ? `/project?type=${productKey}` : link}
+				>
 					<div className="project-container">
 						{isDown ? (
 							<span className="is-down-text">

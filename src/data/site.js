@@ -21,7 +21,7 @@ const INFO = {
 	homepage: {
 		title: "Full-stack web and mobile app developer.",
 		description: `
-			I am a full stack developer with a strong background in creating scalable, secure, and dependable web applications. 
+			My name is Jakob and I'm a full stack developer with a strong background in creating scalable, secure, and dependable web applications. 
 			Leveraging a variety of frameworks and technologies, I thrive on tackling intricate problems and continuously expanding my skill set. 
 			I am dedicated to delivering high-quality code that aligns with industry standards and best practices. 
 			I am consistently seeking new challenges and opportunities to advance my programming skills.

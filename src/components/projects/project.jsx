@@ -45,11 +45,7 @@ const Project = (props) => {
 			<div className="project">
 				<Link
 					target="_blank"
-					to={
-						showPage
-							? "http://localhost:3000/project?type=" + productKey
-							: link
-					}
+					to={showPage ? `/project?type=${productKey}` : link}
 				>
 					<div className="project-container">
 						{isDown ? (

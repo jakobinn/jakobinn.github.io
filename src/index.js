@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, HashRouter } from "react-router-dom";
-
+// basename={process.env.PUBLIC_URL}
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<HashRouter basename={process.env.PUBLIC_URL}>
+		<HashRouter>
 			<App />
 		</HashRouter>
 	</React.StrictMode>

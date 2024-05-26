@@ -27,7 +27,7 @@ const INFO = {
 			I am consistently seeking new challenges and opportunities to advance my programming skills.
 		`,
 		aboutProjects:
-			"Here are a few of side projects I've done that are live at the moment. This does not include websites or projects done in previous jobs.  ",
+			"Here are a few of side projects I've done that are live at the moment. This does not include websites or projects done in previous jobs or school.  ",
 	},
 
 	about: {

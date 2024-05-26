@@ -68,7 +68,7 @@ const Homepage = () => {
 							<div className="homepage-image-container">
 								<div className="homepage-image-wrapper">
 									<img
-										src="avatar.png"
+										src={`${process.env.PUBLIC_URL}/avatar.png`}
 										alt="Avatar"
 										className="homepage-image"
 									/>
